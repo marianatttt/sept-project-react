@@ -4,5 +4,5 @@ import {baseURL} from "../configs";
 const axiosService =  axios.create({baseURL});
 
 export {
-    baseURL, axiosService
+    axiosService
 }

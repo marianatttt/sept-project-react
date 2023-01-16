@@ -1,8 +1,8 @@
 const baseURL = 'https://jsonplaceholder.typicode.com'
 
 const urls = {
-    album: '/album',
-    todo: '/todo',
+    albums: '/albums',
+    todos: '/todos',
     comments: '/comments',
     postById: (id) => `/posts/${id}`
 }

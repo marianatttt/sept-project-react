@@ -1,0 +1,16 @@
+.Header {
+    display: flex;
+    min-height: 80px;
+    background: cornsilk;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Header a{
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.Header a[class='active'] {
+    font-size: 30px;
+}

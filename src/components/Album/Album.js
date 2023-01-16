@@ -1,6 +1,5 @@
-const Todo = ({todo}) => {
-    const {userId,id,title} = todo;
-
+const Album = ({album}) => {
+    const {userId,id, title} = album;
  return (
   <div>
       <div>userId: {userId}</div>
@@ -10,4 +9,4 @@ const Todo = ({todo}) => {
  );
 };
 
-export {Todo};
+export {Album};
