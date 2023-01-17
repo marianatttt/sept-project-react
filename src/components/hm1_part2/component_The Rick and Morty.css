@@ -1,0 +1,19 @@
+
+
+.container {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.wrap {
+    height: 400px;
+    width: 380px;
+}
+
+b {
+    padding-left: 10px;
+}
+
