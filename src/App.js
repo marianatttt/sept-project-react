@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './components/componentSimson.css';
 import ComponentSimson from "./components/componentSimson";
 
 function App () {
