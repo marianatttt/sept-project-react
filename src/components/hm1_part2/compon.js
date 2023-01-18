@@ -54,16 +54,16 @@ function App () {
             "image": "https://rickandmortyapi.com/api/character/avatar/269.jpeg",
         }
     ]
-  return (
-      <div className="container">
-          {
-              characters.map((character)=> <Component_TheRickAndMorty
-                      key={character.id}
-                      item={character}/>
-              )
-          }
-      </div>
-  );
+    return (
+        <div className="container">
+            {
+                characters.map((character)=> <Component_TheRickAndMorty
+                    key={character.id}
+                    item={character}/>
+                )
+            }
+        </div>
+    );
 }
 export default App;
 
