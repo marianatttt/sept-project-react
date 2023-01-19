@@ -9,5 +9,4 @@ const Post = ({post, setDetails}) => {
   </div>
  );
 };
-
 export {Post};

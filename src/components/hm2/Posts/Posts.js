@@ -27,9 +27,11 @@ const Posts = () => {
             }
 
             <hr/>
+
             <h1>Posts:</h1>
             {posts.map(post => <Post key={post.id} post={post} setDetails={setDetails}/>)}
         </div>
     )
 }
+
 export {Posts};
