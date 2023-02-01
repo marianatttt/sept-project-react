@@ -8,8 +8,7 @@ const PostById = ({postId}) => {
 
     useEffect(()=> {
         postsService.getPostId(postId).then(({data})=>
-            setPost(data)
-        )
+            setPost(data))
     }, [postId])
 
  return (
@@ -26,4 +25,4 @@ const PostById = ({postId}) => {
  );
 };
 
-export {PostById};
+export {PostById}

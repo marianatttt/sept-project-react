@@ -3,6 +3,7 @@ import {albumsService} from "../../services";
 import {Album} from "../Album/Album";
 
 const Albums = () => {
+
     const [albums, setAlbums] = useState([]);
 
     useEffect(()=>{
@@ -17,4 +18,6 @@ const Albums = () => {
  );
 };
 
-export {Albums};
+export {
+    Albums
+}
