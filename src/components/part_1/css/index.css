@@ -1,0 +1,13 @@
+.box{
+    background: cornsilk;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+h4 {
+    margin: 0;
+    text-align: center;
+}

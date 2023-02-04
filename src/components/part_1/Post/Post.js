@@ -9,7 +9,6 @@ render() {
             <div>id: {this.props.post.id}</div>
             <div>title: {this.props.post.title}</div>
             <div>body: {this.props.post.body}</div>
-        <hr/>
         </div>
     );
 }

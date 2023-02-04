@@ -1,12 +1,14 @@
-import {ClassComponentComments, ClassComponentPosts} from "./components";
+import {ClassComponentComments, ClassComponentPosts, Reducer} from "./components";
 
 const App = () => {
  return (
   <div>
-      {/*<ClassComponentPosts/>*/}
-
-   <ClassComponentComments/>
-
+      <ClassComponentComments/>
+      <hr/>
+      <ClassComponentPosts/>
+      <hr/>
+      <Reducer/>
+      <hr/>
   </div>
  );
 };

@@ -1,6 +1,7 @@
 import {Component} from "react";
-import {postsService} from "../../services";
+import {postsService} from "../../../services";
 import {ClassComponentPost} from "../Post/Post";
+import '../css/index.css'
 
 class ClassComponentPosts extends Component{
         constructor(props) {
@@ -14,7 +15,8 @@ class ClassComponentPosts extends Component{
 
 render() {
       return (
-          <div>
+          <div className={'box'}>
+              <h4>Posts</h4>
               {this.state.posts.map(post => <ClassComponentPost key={post.id} post={post}/>)}
           </div>
       )
