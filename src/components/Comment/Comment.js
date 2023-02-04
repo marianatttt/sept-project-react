@@ -8,15 +8,16 @@ const Comment = ({comment}) => {
 
 
  return (
-    <div>
 
+    <div>
       <div>id: {id}</div>
       <div>postId: {postId}</div>
       <div>name: {name}</div>
       <div>email: {email}</div>
       <div>body: {body}</div>
-      <button onClick={()=>navigate(postId.toString())}>post</button>
+      <button onClick={()=>navigate(id.toString(),{state:comment})}>post</button>
     </div>
+
  );
 };
 

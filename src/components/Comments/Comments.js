@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import {commentsService} from "../../services";
 import {Comment} from "../Comment/Comment";
+import css from './Comments.module.css'
 
 const Comments = () => {
 
@@ -12,7 +13,7 @@ const Comments = () => {
     }, [])
 
     return (
-        <div>
+        <div className={css.box}>
             {comments.map(comment=><Comment key={comment} comment={comment}/>)}
 
         </div>

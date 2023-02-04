@@ -1,11 +1,19 @@
 import {useParams} from "react-router-dom";
 import {PostById} from "../../components";
+import css from './PostById.module.css';
+import {useLocation} from "react-router-dom"
+
+
 
 const PostByIdPage = () => {
-    const {postId} =  useParams()
+    const {postId} =  useParams();
+    const {state} = useLocation();
+
+
+
     return (
-        <div>
-              <PostById postId={postId}/>
+        <div className={css.PostById}>
+              <PostById postId={postId} state={state}/>
         </div>
     );
 };
