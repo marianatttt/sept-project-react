@@ -1,4 +1,5 @@
 import {useReducer, useRef} from "react";
+
 import {Cats} from "../Cats/Cats";
 import {Dogs} from "../Dogs/Dogs";
 
